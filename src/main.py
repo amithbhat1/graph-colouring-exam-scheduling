@@ -1,6 +1,11 @@
 import numpy as np
 import json, operator, csv 
 import fpdf
+import subprocess
+import sys
+subprocess.check_call([sys.executable, "-m", "pip", "install", 'numpy'])
+subprocess.check_call([sys.executable, "-m", "pip", "install", 'fpdf'])
+
 
 max_no_of_days = 5
 
