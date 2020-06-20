@@ -11,7 +11,7 @@ import json
 
 # Format of data in the txt file: Roll no(of the particular student), [list of taken courses]
 
-f = open('enrolements.txt')
+f = open('data_student_course.txt')
 
 students = {}
 
