@@ -33,7 +33,7 @@ class Course:
     def assign_color(self, color):
         self.color = color
         color.courses.append(self)
-        print( "Assigned : ", self.course_code, color.day, color.slot, self.degree, self.no_of_students)
+        print( "Assigned : ", self.course_code,"day: ",color.day+1,"slot: ",color.slot,"students:",self.no_of_students)
         return None
 
     def get_hall_list(self):
